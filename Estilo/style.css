@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+*{
+   margin: 0%;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: "Rubik", sans-serif;
+}
+:root {
+    --cor-primaria: #000000;
+    --cor-secundaria: 	SeaGreen;
+    --cor-terciaria: white;
+}
+.comeco .backvideo{
+    background-color: cadetblue;
+    margin: 0;
+    padding: 0;
+  }
+.backvideo {
+        position: fixed;
+        top: 0;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: -1;
+     }
+
+
+
+.cabecalho {
+  display: flex;
+  justify-content: space-between;
+  padding: 2%;
+
+}
+.cabecalho h1 {
+    
+    color: var(--cor-terciaria);
+    text-shadow: 10px 5px 4px black; 
+   transform: translate(-32px, 80px);
+}
+
+.cabecalho img {
+  max-width: 70px;
+  max-height: 70px;
+  width: auto;
+  height: auto;
+}
+.Visual {
+    display: flex;
+    justify-content: space-between;
+    color: var(--cor-terciaria);
+    padding: 2% 0 0 4%;
+}
+
+.Visual .Visual-Digitetexto {
+  width: 400px;
+  height: 330px;
+}
+#input-text{
+    width: 345px;
+    height: 330;
+    font-size: 28px;
+    color: var(--cor-terciaria);
+    background: transparent;
+    box-shadow: none;
+    border: none;
+    outline: 0;
+    padding: 10px;
+    text-transform: uppercase;
+}
+#Visualcaixa {
+    display: flex;
+    flex-direction: column;
+    background: black;
+    border: 3px solid var(--cor-secundaria);
+    border-radius: 28px;
+    width: 400px;
+    height: 500px;
+    margin-right: 3%;
+
+}
+#Visual-Digitetexto {
+    display: flex;
+    flex-direction: column;
+    background: black;
+    border: 10px solid var(--cor-secundaria);
+    border-radius: 20px;
+    width: 450px;
+    height: 100px;
+    margin-right: 3%;
+    transform: translate(250px, 200px);
+}
+#Visual-Digitetexto p {
+    text-align: center;
+    font-size: 14px;
+
+}
+#Visualcaixa h2 {
+    text-align: center;
+    font-size: 19px;
+  
+}
+#Visualcaixa span {
+    font-size: 12px;
+    text-align: center;
+}
+#Visualcaixa img {
+   max-width: 300px;
+   max-width: 300px;
+   width: auto;
+   height: auto;
+   margin-top: 4%;
+   align-items: center;
+   transform: translate(34px, -2px);
+
+}
+.btnbuttons button {
+  border: 7px solid var(--cor-secundaria);
+  border-radius: 10px;
+  text-decoration: none;
+  color:var(--cor-terciaria);
+  width: 200px;
+  height: 60px;
+  margin: 1%;
+  cursor: pointer;
+  background-color: #000000;
+  font-family: var(wh);
+  transform: translate(310px, -210px);
+  font-family: "Rubik", sans-serif;
+}
+.btn-copiar{
+    border: 7px solid var(--cor-secundaria);
+    border-radius: 10px;
+    text-decoration: none;
+    color: #00ff00;
+    width: 150px;
+    height: 60px;
+    margin: 4%;
+    cursor: pointer;
+    background-color: #000000;
+    font-family: var(--cor-secundaria);
+}
+.btnbuttons button:hover{
+    border: 7px solid var(--cor-terciaria);
+    background-color: #272727
+    
+    
+    
+}
+.rodape {
+    color: var(--cor-primaria);
+    background-color: var(--cor-secundaria);
+    padding: 9px;
+    text-align: center;
+    font-family: var(--fonte-secundaria);
+    font-size: 1.5rem;
+    font-weight: 400; 
+    margin-top: auto;
+    transform: translate(0px, 110px)
+
+}
+.rodape h3{
+    font-size: 20px;
+}
+.icons ion-icon{
+    width: 25px;
+    height: 25px;
+    color: var(--cor-terciaria);
+}
+
+.icons ion-icon:hover{
+    color: var(--cor-primaria);
+}
