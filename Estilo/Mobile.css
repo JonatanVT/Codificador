@@ -28,10 +28,11 @@
     
      
       #Visual-Digitetexto {
+        width: 400px;
         display: flex;
         position: fixed;
        justify-content: center;
-      transform: translate( -15px, 60px);
+      transform: translate( -10px, 60px);
        align-items: center;
 
       }
@@ -39,7 +40,7 @@
         display: flex;
         position: fixed;
         justify-content: center;
-        transform: translate(-15px, 250px);
+        transform: translate(-10px, 250px);
         align-items: center;
         display: flex;
     flex-direction: column;
