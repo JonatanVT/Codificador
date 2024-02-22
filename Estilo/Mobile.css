@@ -1,8 +1,8 @@
 @media screen and (max-width:850px){
     .container {
-        width: 80%; /* 80% da largura da tela */
-        margin: 0 auto; /* Centraliza horizontalmente */
-        padding: 2% 5%; /* 2% de padding superior/inferior, 5% de padding esquerda/direita */
+        width: 80%; 
+        margin: 0 auto; 
+        padding: 2% 5%; 
     }
 
     .comeco .backvideo {
