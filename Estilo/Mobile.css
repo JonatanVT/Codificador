@@ -16,7 +16,7 @@
         display: flex;
         justify-content: space-between;
         padding: 2%;
-        transform: translate(120px, -100px);
+        transform: translate(40px, -70px);
         align-items: center;
       
       }
@@ -31,7 +31,7 @@
         display: flex;
         position: fixed;
        justify-content: center;
-       transform: translate( 50px, 60px);
+      transform: translate( -15px, 60px);
        align-items: center;
 
       }
@@ -39,7 +39,7 @@
         display: flex;
         position: fixed;
         justify-content: center;
-        transform: translate(80px, 250px);
+        transform: translate(10px, 250px);
         align-items: center;
         display: flex;
     flex-direction: column;
@@ -57,7 +57,7 @@
       .btnbuttons {
         display: flex;
        position: fixed;
-       transform: translate(-210px, 370px);
+       transform: translate(-290px, 370px);
 
 
 
